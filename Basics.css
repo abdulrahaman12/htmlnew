@@ -1,0 +1,362 @@
+*{
+    padding: 0px;
+    margin:0px;
+    list-style: none;
+    text-decoration: none;
+    
+    
+
+}
+.top_left{
+
+    padding:20px;
+    background-image: url("ply.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.top_left ul{
+    float:right;
+}
+.top_left ul li{
+    color:blue;
+    display: inline;
+    padding:25px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.detect{
+    margin-top: -25px;
+    
+}
+
+a:hover{
+    color:chartreuse;
+}
+P{
+    font-size: 20px;
+    color:darkmagenta;
+    font-weight: bolder;
+    
+}
+ h1,h2,p {
+    
+    margin-bottom: 10px;   
+}
+h1,h2{
+    color:yellow;
+}
+h6{
+    color:turquoise;
+}
+.para{
+    
+    padding: 20px 15px 25px 15px;
+    padding-left: 100px;
+    background-image: url(D:/HTML/green.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%, 200%;
+    
+    
+}
+ul li a{
+    color:yellow;
+}
+
+.Agri{
+    padding: 0px;
+    padding-left: 150px;
+    margin-left: 50;
+
+    
+}
+.varam{
+    padding: 15px;
+    position: relative;
+    left: 200px;
+    margin-bottom: 0em;
+    top:15px;
+    
+}
+
+.sec{
+    color:black;
+    padding-left: 148px;
+    display:inline-flex;
+    line-height: 30px;
+  
+}
+.seco{
+    color:black;
+    margin-left:57%;
+    padding-right:70px;
+    margin-top: -60px;
+    line-height: 30px;
+}
+ #dast{
+    box-sizing: border-box;
+    width: 40%;
+    border-top: 5px dashed rgb(214, 114, 114);
+    margin-left: 55px;
+    margin-top: 30px;
+ }
+ .das{
+    box-sizing: border-box;
+    width: 108%;
+    border-top: 5px dashed rgb(214, 114, 114);
+    margin-left: 650px;
+    margin-top: -5px;
+ }
+ .top{
+     padding: 30px;
+     padding-left: 0px;
+     display:inline-flex;
+     font-weight: bold;
+ }
+.plan{
+    
+    display: inline-flex;
+    padding-bottom: 0px;
+}
+.cycle{
+    position:relative;
+    display: inline-flex;
+    left: 70px;
+    bottom: 3px;
+    padding-bottom: 0px;
+}
+.tree{
+    padding:10px;
+    padding-left: 0px;
+    position:relative;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:20px;
+    display: inline-flex;
+}
+.paper{
+    padding:10px;
+    padding-left: 0px;
+    position:relative;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:20px;
+    left:60%;
+    top:-45px;
+}
+.cont{
+    position: relative;
+    top:-50px;
+    line-height: 30px;
+}
+.con{
+    
+    position:relative;
+    left:60%;
+    margin-top: -127px;
+    line-height: 30px;
+}
+.post{
+
+    margin-left: 300px;
+    margin-top: -332px;
+    position: relative;
+    left: 350px;
+    font-weight: bold;
+
+}
+.mod{
+    position:relative;
+    left: 650px;
+    top:30px;
+}
+.des{
+    margin-left: 40px;
+    position: relative;
+    left: 770px;
+    top: -132px;
+    line-height: 30px;
+}
+.tipo{
+    margin-top: 70px;
+    position: relative;
+    right: 160px;
+}
+.sys{
+    margin-top: -170px;
+}
+.second{
+    box-sizing: border-box;
+    width: 250%;
+    border-top: 5px dashed rgb(214, 114, 114);
+    margin-top: 70px;
+    position: relative;
+    right:165%;
+}
+.foot{
+    border:2px solid black;
+    background-color:linen;
+    margin-top:25px;
+    position:relative;
+    right: 820px;
+    height:350px; 
+    width:250%;
+   
+
+}
+h3{
+    padding: 8px;
+    color:black;
+}
+img.a {
+    vertical-align: baseline;
+  }
+.ph1{
+    padding:8px;
+}
+.num{
+    color:black;
+    position:relative;
+    top: -288px;
+    right: 153%;
+}
+.my{
+    color:black;
+    position:relative;
+    top: -340px;
+    right: 153%;
+    
+}
+.maa{
+    padding:10px;
+    position:relative;
+    top:-300px;
+    right:164%;
+    color: red;
+}
+.email{
+    position:relative;
+    top:-350px;
+    right:153%;
+}
+.hom{
+    padding:8px;
+    position:relative;
+    top:-320px;
+    right:163%;
+}
+.address{
+    position:relative;
+    top:-362px;
+    right:153%;
+}
+.tweet{
+    color:black;
+    position:relative;
+    top:-585px;
+    right:85%;
+    font-weight: bold;
+    font-size: 1.17em;
+}
+.tweets{
+    position:relative;
+    top:-580px;
+    right:85%;
+}
+.date{
+    font-size:13px;
+    position:relative;
+    bottom:580px;
+    right:85%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.farm{
+    position:relative;
+    top:-570px;
+    right:85%;
+}
+.dat{
+    font-size:13px;
+    position:relative;
+    bottom:575px;
+    right:85%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.touch{
+    color:black;
+    position:relative;
+    top:-852px;
+    right:-25%;
+    font-weight: bold;
+    font-size: 1.17em;
+    
+}
+.face{
+    position: relative;
+    bottom: 850px;
+    left: 125px;
+    padding:1px;
+}
+.fac{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    bottom: 893px;
+    left:165px;
+}
+.twit{
+    position: relative;
+    bottom: 870px;
+    left:128px;
+    padding:1px;
+}
+.twi{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    bottom: 910px;
+    left:170px;
+}
+.goog{
+    position: relative;
+    bottom: 885px;
+    left:128px;
+    padding:1px;
+}
+.gle{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    bottom: 930px;
+    left:170px;
+    padding:1px;
+}
+.copy{
+    position: relative;
+    bottom: 800px;
+    right:420px;
+    padding:1px;
+}
+.res{
+    font-family:inherit;
+    position: relative;
+    bottom: 833px;
+    right:400px;
+    padding:1px;
+    font-size:12px;
+}
+.signup{
+    color:black;
+    position:relative;
+    top:-950px;
+    right:-25%;
+    font-weight: bold;
+    font-size: 1.17em;
+}
+.mine{
+    position: relative;
+    bottom: 950px;
+    left:125px;
+}
+body{
+   padding-top:0px;
+}

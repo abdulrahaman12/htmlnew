@@ -1,0 +1,113 @@
+<!Doctype html>
+
+<head>
+    <title>pseudo classes-elements</title>
+    <style>
+        /*Universal selectors*/
+        * {
+            color: aqua;
+
+
+        }
+
+        /*Anchor selectors*/
+        a {
+            color: brown;
+            padding: 20px;
+            display: inline-block;
+
+        }
+
+        a:hover {
+            background-color: chartreuse;
+            font-weight: 100;
+            color: cornsilk;
+            text-decoration: none;
+
+        }
+
+        a:active {
+            font-style: oblique;
+            color: turquoise;
+        }
+
+        a:focus {
+            background-color: rgb(250, 128, 153);
+            font-weight: 200;
+        }
+
+        /*Descendant selectors*/
+        div p {
+            color: wheat;
+            border-radius: 2px;
+            background-color: red;
+            display: inline-block;
+        }
+
+        div>p {
+            color: black;
+            border-radius: 3px;
+            background-color: yellow;
+            display: inline-block;
+        }
+
+        /*Pseudo Elements*/
+        p::first-letter {
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: unset;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        p::first-line {
+            color:black;
+            font-style: italic;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .tree{
+    border-style:dotted solid dotted solid;
+    background-image: url("ply.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 20px;
+    border-color: red;
+
+
+    
+}
+    </style>
+
+
+</head>
+
+<body>
+
+    <!--Universal selectors-->
+    <div class="tree">
+    <h1>World Tree Preservation</h1>
+    <h6>SAVE TREES.PLANT TREES.BUILD A GREENER FUTURE</h6>
+</div>
+    <!--Anchor-->
+    <a href="#">Home</a>
+
+    <!--Descendant-->
+    <div>
+        <p>
+            Lorem, ipsum.
+        </p>
+    </div>
+    <!--Child-->
+    <!--Pseudo elements
+        1.First letter
+        2.First Line
+        3.Selection-->
+    <p>
+        A paragraph is a self-contained unit of discourse<br>A paragraph consists of one or more sentences
+    </p>
+    
+    
+
+    
+</body>
